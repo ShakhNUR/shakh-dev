@@ -26,7 +26,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
+        <img src="assets/img/logo.png" alt="Shakh.dev">
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -59,7 +59,7 @@
             <p>Разработка сайтов, мобильных приложений и автоматизация процессов. Закажите наши услуги и достигайте новых высот с современными технологиями.</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started me-3">О нас</a>
-              <a href="#services" class="btn btn-outline-light rounded-5 align-content-center text-bold"><i class="bi bi-play-circle me-2"></i><span>Наши услуги</span></a>
+              <a href="#services" class="btn btn-outline-light rounded-5 align-content-center text-bold"><i class="bi bi-stack me-2"></i><span>Наши услуги</span></a>
             </div>
           </div>
 
@@ -93,7 +93,7 @@
             <h3>О нас</h3>
             <h2>Решения, которые помогают вашему бизнесу расти</h2>
             <p>Мы — команда профессионалов, которая разрабатывает сайты, мобильные приложения и автоматизирует бизнес-процессы. Наши решения помогают вам эффективно решать задачи и достигать поставленных целей. С нами вы получите цифровые решения, которые поднимут ваш бизнес на новый уровень.</p>
-            <a href="#services" class="read-more"><span>Узнать больше</span><i class="bi bi-arrow-right"></i></a>
+            <a data-bs-toggle="modal" data-bs-target="#contact_modal" class="read-more"><span>Заказать услугу</span><i class="bi bi-telephone"></i></a>
           </div>
 
           <div class="col-xl-7">
@@ -165,6 +165,7 @@
               <li><i class="bi bi-check"></i> <span>Оптимизация для всех устройств и браузеров</span></li>
               <li><i class="bi bi-check"></i> <span>Быстрое время отклика и высокие позиции в поиске</span></li>
             </ul>
+            <a data-bs-toggle="modal" data-bs-target="#contact_modal" class="btn btn-outline-success"><i class="bi bi-globe me-2"></i><span>Заказать сайт для бизнеса</span></a>
           </div>
         </div><!-- Features Item -->
 
@@ -183,6 +184,7 @@
               <li><i class="bi bi-check"></i><span>Максимальная производительность на любых устройствах</span></li>
               <li><i class="bi bi-check"></i><span>Получайте прямую обратную связь с пользователями через приложение</span></li>
             </ul>
+            <a data-bs-toggle="modal" data-bs-target="#contact_modal" class="btn btn-outline-success"><span>Заказать мобильное приложение</span><i class="bi bi-phone ms-2"></i></a>
           </div>
         </div><!-- Features Item -->
 
@@ -199,6 +201,7 @@
               <li><i class="bi bi-check"></i><span>Повышение точности и скорости выполнения задач</span></li>
               <li><i class="bi bi-check"></i><span>Оптимизация всех рабочих процессов под ваши цели</span></li>
             </ul>
+            <a data-bs-toggle="modal" data-bs-target="#contact_modal" class="btn btn-outline-success"><i class="bi bi-gear me-2"></i><span>Заказать автоматизацию бизнес-процессов</span></a>
           </div>
         </div><!-- Features Item -->
 
@@ -217,6 +220,7 @@
               <li><i class="bi bi-check"></i><span>Регулярные обновления и оптимизация</span></li>
               <li><i class="bi bi-check"></i><span>Поддержка на всех этапах использования вашего продукта</span></li>
             </ul>
+            <a data-bs-toggle="modal" data-bs-target="#contact_modal" class="btn btn-outline-success"><span>Получить техподдержку</span><i class="bi bi-chat ms-2"></i></a>
           </div>
         </div><!-- Features Item -->
 
@@ -314,7 +318,7 @@
             <div class="text-center">
               <h3>Не откладывайте успех на потом!</h3>
               <p>Закажите наши услуги и получите технологические решения, которые приведут ваш бизнес к росту.</p>
-              <a class="cta-btn" href="#contact">Call To Action</a>
+              <a class="cta-btn" data-bs-toggle="modal" data-bs-target="#contact_modal">Начать сотрудничество</a>
             </div>
           </div>
         </div>
@@ -573,7 +577,7 @@
       <!-- Section Title -->
       <div class="container section-title aos-init aos-animate" data-aos="fade-up">
         <h2>Контакты</h2>
-        <div>Свяжитесь с нами для получения подробной информации</div>
+        <div>Свяжитесь с нами</div>
       </div><!-- End Section Title -->
     
       <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
@@ -624,13 +628,59 @@
               <p>info@shakh.dev</p>
             </div>
           </a><!-- End Info Item -->
-    
         </div>
-    
       </div>
-    
     </section>
+
   </main>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contact_modal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-700" id="contactModalLabel">Свяжитесь с нами</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center mb-3">
+                <a href="tel:+77009738959">
+                  <i class="bi bi-telephone me-3 fs-4"></i>
+                  <span>+7 700 973 8959</span>
+                </a>
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <a href="https://wa.me/77009738959" target="_blank">
+                  <i class="bi bi-whatsapp me-3 fs-4"></i>
+                  <span>Написать в WhatsApp</span>
+                </a>
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <a href="https://t.me/ShakhDev" target="_blank">
+                  <i class="bi bi-telegram me-3 fs-4"></i>
+                  <span>ShakhDev</span>
+                </a>
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <a href="https://go.2gis.com/3muxE" target="_blank">
+                <i class="bi bi-geo-alt me-3 fs-4"></i>
+                <span>Алматы, Байзакова 280, SmartPoint</span>
+                </a>
+              </li>
+              <li class="d-flex align-items-center">
+                <a href="mailto:info@shakh.dev" target="_blank">
+                <i class="bi bi-envelope me-3 fs-4"></i>
+                <span>info@shakh.dev</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
   <footer id="footer" class="footer dark-background">
 
@@ -641,8 +691,9 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" data-bs-toggle="modal" data-bs-target="#contact_modal"  class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-telephone"></i></a>
 
+  
   <!-- Preloader -->
   <div id="preloader"></div>
 

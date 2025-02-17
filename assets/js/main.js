@@ -70,7 +70,7 @@
 
   /**
    * Scroll top button
-   */
+   
   let scrollTop = document.querySelector('.scroll-top');
 
   function toggleScrollTop() {
@@ -88,6 +88,7 @@
 
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);
+*/
 
   /**
    * Animation on scroll function and init
